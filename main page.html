@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Portfolio</title>
+    <link rel="stylesheet" href="">
+    <style>
+        #nav{
+            list-style-type: none;
+            text-decoration: none;
+            display: flex;
+        }
+        .list a{
+            color: black;
+            text-decoration: none;
+            display: block;
+            padding: 15px;
+            margin-left: 100px;
+            font-size: 20px;
+        }
+        .list a:hover{
+            font-size: 25px;
+        }
+        
+        #intro{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+        .text{
+            padding: 15x;
+        }
+
+        #sub{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+        .text2{
+            padding: 20px;
+        }
+        .text2 img{
+            height: 525px;
+            width: 450px;
+            margin-left: 125px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul id="nav">
+            <li class="list"><a href="Untitled-1.html">Home</a></li>
+            <li class="list"><a href="portfolio_about.html">About</a></li>
+            <li class="list"><a href="portfolio_contact.html">Contact</a></li>
+            <li class="list"><a href="portfolio_github.html">Github</a></li>
+        </ul>
+    </nav>
+
+    <div id="intro">
+        <div class="text"><img src="logo_portfolio.png" alt="C logo"></div>
+
+        <p class="text" style="font-size: 30px;">Back and Front End Developer</p>
+        <p class="text" style="font-size: 30px;">Currently Unemployed</p>
+    </div>
+    <div id="sub">
+        <div class="text2"><img src="zack.jpg" alt="me"></div>
+
+        <p class="text2" style="font-size: 28px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+</body>
+</html>
